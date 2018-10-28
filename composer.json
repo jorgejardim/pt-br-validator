@@ -1,6 +1,6 @@
 {
-    "name": "laravellegends/pt-br-validator",
-    "description": "Uma biblioteca contendo validações de formatos Brasileiros, para o Laravel 5",
+    "name": "jorgejardim/pt-br-validator",
+    "description": "Uma biblioteca contendo validações de formatos Brasileiros, para o Laravel 5 - Fork LaravelLegends/pt-br-validator",
     "license" : "MIT",
     "authors": [
         {
