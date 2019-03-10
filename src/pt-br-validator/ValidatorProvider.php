@@ -44,6 +44,7 @@ class ValidatorProvider extends ServiceProvider
             'cnpj'             => 'O campo :attribute não é um CNPJ válido',
             'cpf'              => 'O campo :attribute não é um CPF válido',
             'data'             => 'O campo :attribute não é uma data com formato válido',
+            'data_hora'        => 'O campo :attribute não é uma data e hora com formato válido',
             'formato_cnpj'     => 'O campo :attribute não possui o formato válido de CNPJ',
             'formato_cpf'      => 'O campo :attribute não possui o formato válido de CPF',
             'telefone'         => 'O campo :attribute não é um telefone válido',

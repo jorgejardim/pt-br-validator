@@ -211,6 +211,20 @@ class Validator extends BaseValidator
     }
 
 
+    /**
+    * Valida se o data e hora está no formato 31/12/1969 00:00
+    * @param string $attribute
+    * @param string $value
+    * @return boolean
+    */
+
+    public function validateDataHora($attribute, $value)
+    {
+        $regex = '/^(0[1-9]|[1-2][0-9]|3[01])\/(0[1-9]|1[0-2])\/\d{4}((\s)?([0-2][0-9]):([0-5][0-9])(:[0-5][0-9])?)?$/';
+
+        return preg_match($regex, $value) > 0;
+    }
+
 
     /**
      * Valida se o formato de CEP está correto
