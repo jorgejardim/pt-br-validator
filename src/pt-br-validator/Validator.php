@@ -252,4 +252,17 @@ class Validator extends BaseValidator
         return preg_match('/^[a-zA-Z]{3}\-?[0-9]{4}$/', $value) > 0;
     }
 
+    /**
+     * Valida se a url do site está correta.
+     *
+     * @param string $attribute
+     * @param string $value
+     * @return boolean
+     */
+
+    public function validateSite($attribute, $value)
+    {
+        return preg_match('/^(https?:\/\/)?((([a-z\d]([a-z\d-]*[a-z\d])*)\.)+[a-z]{2,}|((\d{1,3}\.){3}\d{1,3}))(\:\d+)?(\/[-a-z\d%_.~+]*)*(\?[;&a-z\d%_.~+=-]*)?(\#[-a-z\d_]*)?$/', $value) > 0;
+    }
+
 }

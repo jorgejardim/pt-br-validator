@@ -38,19 +38,20 @@ class ValidatorProvider extends ServiceProvider
     protected function getMessages()
     {
         return [        
-            'celular'          => 'O campo :attribute não é um celular válido',
-            'celular_com_ddd'  => 'O campo :attribute não é um celular com DDD válido',
-            'cnh'              => 'O campo :attribute não é uma carteira nacional de habilitação válida',
-            'cnpj'             => 'O campo :attribute não é um CNPJ válido',
-            'cpf'              => 'O campo :attribute não é um CPF válido',
-            'data'             => 'O campo :attribute não é uma data com formato válido',
-            'data_hora'        => 'O campo :attribute não é uma data e hora com formato válido',
-            'formato_cnpj'     => 'O campo :attribute não possui o formato válido de CNPJ',
-            'formato_cpf'      => 'O campo :attribute não possui o formato válido de CPF',
-            'telefone'         => 'O campo :attribute não é um telefone válido',
-            'telefone_com_ddd' => 'O campo :attribute não é um telefone com DDD válido',
-            'formato_cep'      => 'O campo :attribute não possui um formato válido de CEP',
-            'formato_placa_de_veiculo'   => 'O campo :attribute não possui um formato válido de placa',
+            'celular'                  => 'O campo :attribute não é válido',
+            'celular_com_ddd'          => 'O campo :attribute não é válido',
+            'cnh'                      => 'O campo :attribute não é válido',
+            'cnpj'                     => 'O campo :attribute não é válido',
+            'cpf'                      => 'O campo :attribute não é válido',
+            'data'                     => 'O campo :attribute não é válido',
+            'data_hora'                => 'O campo :attribute não é válido',
+            'formato_cnpj'             => 'O campo :attribute não possui o formato válido de CNPJ',
+            'formato_cpf'              => 'O campo :attribute não possui o formato válido de CPF',
+            'telefone'                 => 'O campo :attribute não é válido',
+            'telefone_com_ddd'         => 'O campo :attribute não é válido',
+            'formato_cep'              => 'O campo :attribute não possui um formato válido de CEP',
+            'formato_placa_de_veiculo' => 'O campo :attribute não possui um formato válido de placa',
+            'site'                     => 'O campo :attribute não é válido',
         ];
     }
 
